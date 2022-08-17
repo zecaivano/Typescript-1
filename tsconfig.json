@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6",
+        "noEmitOnError": true, // Arquivo js não será gerado enquanto a compilação não estiver funcionando.
+        "noImplicitAny": true // Não deixa passar o código se os tipos das variáveis não forem declarados.
+    },
+    "include": ["app/**/*"]
+}
